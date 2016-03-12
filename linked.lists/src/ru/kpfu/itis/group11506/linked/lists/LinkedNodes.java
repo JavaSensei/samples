@@ -10,8 +10,8 @@ public class LinkedNodes<T> {
 	 * Инициализирует начальные данные
 	 */
 	public void init() {
-		startNode = new Node<>();
-		// TODO:
+		startNode = null;
+		lastNode = null;
 	}
 
 	/**
@@ -21,8 +21,16 @@ public class LinkedNodes<T> {
 	 * @return Добавленный элемент
 	 */
 	public Node<T> addLastNode(T value) {
-		// TODO:
-		return null;
+		Node<T> newNode = new Node<>();
+		newNode.setValue(value);
+		if (startNode == null) {
+			startNode = newNode;
+		}
+		if (lastNode != null) {
+			lastNode.setNode(newNode);
+		}
+		lastNode = newNode;
+		return newNode;
 	}
 
 	public void addLastNode(Node<T> node) {
