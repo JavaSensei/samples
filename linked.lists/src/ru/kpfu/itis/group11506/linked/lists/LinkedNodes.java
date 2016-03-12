@@ -41,13 +41,4 @@ public class LinkedNodes<T> {
 		return null;
 	}
 
-	/**
-	 * Возвращает true, если есть цикл. В противном случае возвращает false
-	 * @return
-	 */
-	public boolean hasCicle() {
-		// TODO:
-		return false;
-	}
-
 }

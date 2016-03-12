@@ -18,10 +18,32 @@ public class NumericBox<T extends Number /*& Comparable<T>*/> {
 
 		//		NumericBox<String> strBox = new NumericBox<>("sdsdf");
 		doCompareBlaBla(intBox);
+		doCompareBlaBla(new NumericBox<Number>(1));
+		Integer i = 1;
+		doCompare2(i);
 	}
 
-	public static boolean doCompareBlaBla(NumericBox<Number> a) {
+	public static boolean doCompareBlaBla(NumericBox<? extends Number> a) {
+
 		return false;
 	}
+
+	public static boolean doCompare2(Number a) {
+		return false;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }

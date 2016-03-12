@@ -12,11 +12,12 @@ public class Main {
 		list.addLastNode(true);
 		list.addLastNode(true);
 
-		boolean hasCycle = list.hasCicle();
+		CycleDetermination cycleDetermination = new CycleDetermination();
+		boolean hasCycle = cycleDetermination.hasCicle(list);
 
 		list.addLastNode(list.getStartNode());
 
-		boolean hasCycleAfterAdding = list.hasCicle();
+		boolean hasCycleAfterAdding = cycleDetermination.hasCicle(list);
 
 	}
 
