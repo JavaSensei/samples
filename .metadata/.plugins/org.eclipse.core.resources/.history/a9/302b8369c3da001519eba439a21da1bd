@@ -1,0 +1,12 @@
+package ru.kpfu.itis.group11506.abstractclasses;
+
+public class A extends Object {
+
+	public A(int a) {
+	}
+
+	public static void main(String[] args) {
+
+	}
+
+}

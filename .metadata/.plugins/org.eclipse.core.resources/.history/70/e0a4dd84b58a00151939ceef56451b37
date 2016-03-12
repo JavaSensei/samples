@@ -1,0 +1,29 @@
+package ru.kpfu.itis.group11506.objects;
+
+public class ComplexNumber {
+	
+	private double rePart;
+	
+	private double imPart;
+	
+	public void setRePart(double newValue) {
+		rePart = newValue;
+	}
+
+	public double getImPart() {
+		return imPart;
+	}
+
+	public void setImPart(double newValue) {
+		imPart = newValue;
+	}
+
+	public double getRePart() {
+		return rePart;
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

@@ -1,0 +1,43 @@
+package ru.kpfu.itis.group11506.objects;
+
+public class ComplexNumber {
+	
+	private double rePart;
+	
+	private double imPart;
+
+	public ComplexNumber() {
+	}
+	
+	public ComplexNumber(double initRe) {
+		setRePart(initRe);
+	}
+	
+	public ComplexNumber(double initRe, double initIm) {
+		setRePart(initRe);
+		setImPart(initIm);
+	}
+	
+	public void setRePart(double newValue) {
+		rePart = newValue;
+	}
+
+	public double getImPart() {
+		return imPart;
+	}
+
+	public void setImPart(double newValue) {
+		imPart = newValue;
+	}
+
+	public double getRePart() {
+		return rePart;
+	}
+	
+	public static void main(String[] args) {
+		ComplexNumber complexNumber = new ComplexNumber(1, 1);
+		ComplexNumber complexNumber2 = new ComplexNumber();
+		
+	}
+
+}

@@ -1,0 +1,20 @@
+package ru.kpfu.itis.group11506.objects;
+
+public class Circle extends Figure {
+	
+	private int radius;
+	
+	public Circle(int initRadius) {
+		radius = initRadius;
+	}
+	 
+	public void draw() {
+		System.out.println("Drawing circle in " + xCenter + " " + yCenter );
+		someMethod();
+	}
+
+	public int getRadius() {
+		return radius;
+	}
+	
+}

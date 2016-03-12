@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="ru.kpfu.itis.group11506.objects.Student"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="ru.kpfu.itis.group11506.objects.somesubpack.SomeGrandParent"/>
+<fullyQualifiedTypeName name="ru.kpfu.itis.group11506.objects.somesubpack.SomeParent"/>
+<fullyQualifiedTypeName name="ru.kpfu.itis.group11506.objects.somesubpack.SomeChild"/>
+<fullyQualifiedTypeName name="ru.kpfu.itis.group11506.objects.Circle"/>
+<fullyQualifiedTypeName name="ru.kpfu.itis.group11506.objects.Figure"/>
+<fullyQualifiedTypeName name="ru.kpfu.itis.group11506.objects.init.Game"/>
+<fullyQualifiedTypeName name="javax.activation.MailcapCommandMap"/>
+<fullyQualifiedTypeName name="ru.kpfu.itis.group11506.objects.init.ChessBoard"/>
+<fullyQualifiedTypeName name="ru.kpfu.itis.group11506.objects.other.keywords.References"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="ru.kpfu.itis.group11506.objects.other.keywords.SuperReferences"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="ru.kpfu.itis.group11506.objects.init.Board"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="ru.kpfu.itis.group11506.ide.example.StudentSelector"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="ru.kpfu.itis.group11506.enums.Color"/>
+<fullyQualifiedTypeName name="ru.kpfu.itis.group11506.enums.ColorEnum"/>
+<fullyQualifiedTypeName name="ru.kpfu.itis.group11506.recursion.Fibbonachi"/>
+<fullyQualifiedTypeName name="ru.kpfu.itis.group11506.arrays.sort.SortProvider"/>
+</qualifiedTypeNameHistroy>

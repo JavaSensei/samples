@@ -1,0 +1,13 @@
+package ru.kpfu.itis.group11506.abstractclasses;
+
+public class A extends B {
+
+	private final int a;
+
+	public A(int a) {
+	}
+
+	public static void main(String[] args) {
+	}
+
+}

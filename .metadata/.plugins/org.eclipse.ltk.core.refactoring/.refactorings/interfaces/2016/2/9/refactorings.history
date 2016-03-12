@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;student&apos; in &apos;ru.kpfu.itis.group11506.interfaces.Student.main(...)&apos; to &apos;studentArray&apos;&#x0A;- Original project: &apos;interfaces&apos;&#x0A;- Original element: &apos;ru.kpfu.itis.group11506.interfaces.Student.main(String[]).student&apos;&#x0A;- Renamed element: &apos;student&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;student&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;ru.kpfu.itis.group11506.interfaces{Student.java[Student~main~\[QString;@student!1408!1456!1418!1424!\[QStudent;!0!false" name="studentArray" references="true" stamp="1456564985972" version="1.0"/>
+</session>

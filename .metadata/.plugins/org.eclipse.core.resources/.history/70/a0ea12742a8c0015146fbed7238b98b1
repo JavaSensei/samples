@@ -1,0 +1,12 @@
+package ru.kpfu.itis.group11506.objects;
+
+public class ExtensionRunner {
+
+	public static void main(String[] args) {
+		Figure figure = new Square();
+		figure.draw();
+//		System.out.println(((Circle)figure).getRadius());
+//		figure.someMethod();
+	}
+
+}

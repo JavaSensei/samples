@@ -1,0 +1,9 @@
+package ru.kpfu.itis.group11506.ide.example;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+	}
+	
+}

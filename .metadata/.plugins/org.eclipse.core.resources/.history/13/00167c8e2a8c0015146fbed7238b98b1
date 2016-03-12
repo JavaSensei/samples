@@ -1,0 +1,13 @@
+package ru.kpfu.itis.group11506.objects;
+
+public class Figure {
+	
+	public void draw() {
+		System.out.println("Drawing figure...");
+	}
+	
+	protected void someMethod() {
+		System.out.println("In some method");
+	}
+	
+}

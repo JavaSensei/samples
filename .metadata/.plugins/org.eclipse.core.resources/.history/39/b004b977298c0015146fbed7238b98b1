@@ -1,0 +1,10 @@
+package ru.kpfu.itis.group11506.objects;
+
+public class Circle extends Figure {
+	
+	public void draw() {
+		System.out.println("Drawing circle");
+		someMethod();
+	}
+
+}

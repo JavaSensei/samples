@@ -1,0 +1,11 @@
+package ru.kpfu.itis.group11506.objects;
+
+public class ExtensionRunner {
+
+	public static void main(String[] args) {
+		Figure figure = new Circle();
+		figure.draw();
+		figure.someMethod();
+	}
+
+}

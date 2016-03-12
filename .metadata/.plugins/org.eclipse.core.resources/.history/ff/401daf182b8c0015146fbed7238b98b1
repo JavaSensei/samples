@@ -1,0 +1,24 @@
+package ru.kpfu.itis.group11506.objects;
+
+public class Figure {
+	
+	protected double xCenter;
+	
+	protected double yCenter;
+	
+	public Figure(
+			double initXCenter, double initYCenter
+			) {
+		xCenter = 0;//initXCenter;
+		yCenter = 0;//initYCenter;
+	}
+	
+	public void draw() {
+		System.out.println("Drawing figure...");
+	}
+	
+	protected void someMethod() {
+		System.out.println("In some method");
+	}
+	
+}

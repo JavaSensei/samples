@@ -1,0 +1,12 @@
+package ru.kpfu.itis.group11506.ide.example;
+
+public class Student {
+
+	private String name;
+	
+	private int age;
+	
+	private int group;
+	
+	
+}

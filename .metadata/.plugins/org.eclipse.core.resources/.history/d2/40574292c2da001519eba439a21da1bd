@@ -1,0 +1,13 @@
+package ru.kpfu.itis.group11506.abstractclasses;
+
+public class A {
+
+	static int a = 1;
+
+	int b;
+
+	public static void main(String[] args) {
+		
+	}
+	
+}
