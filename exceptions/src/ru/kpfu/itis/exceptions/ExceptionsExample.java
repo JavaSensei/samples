@@ -23,12 +23,8 @@ public class ExceptionsExample {
 			int someNumber = Integer.parseInt(a);
 			int someOtherNumber = 10;
 			System.out.println(someOtherNumber/someNumber);
-		} catch (ArithmeticException e) {
-			System.err.println("Division by zero! " + e.getMessage());
-			e.printStackTrace();
-		}
-		catch(NumberFormatException e) {
-			System.err.println("Incorrect number format "+ e.getMessage());
+		}  catch(NumberFormatException | ArithmeticException  e) {
+			System.err.println(e.getMessage());
 			e.printStackTrace();
 		}
 
