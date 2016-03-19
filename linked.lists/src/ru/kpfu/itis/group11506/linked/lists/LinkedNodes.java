@@ -34,7 +34,7 @@ public class LinkedNodes<T> {
 	}
 
 	public void addLastNode(Node<T> node) {
-		// TODO:
+		// TODO
 	}
 
 	public Node<T> getStartNode() {
